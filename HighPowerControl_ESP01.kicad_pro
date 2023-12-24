@@ -45,11 +45,15 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|25300000|33200000|2b9a13f0-5487-4174-8fad-d97e573d7f01|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|52000000|33000000|986a87c3-e52d-4fca-840c-9f9636545bf5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|81000000|46000000|c4950dfd-31cf-4d20-85ed-28cd528ded46|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -177,7 +181,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|254000|279400|ccef6d54-9767-4615-a8db-12c1a693eac2|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|381000|254000|d8eed84d-fe39-402d-90f8-d0f94f595d01|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|927100|711200|6877dc5e-23fa-4f79-b4d2-38455afaf31f|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
